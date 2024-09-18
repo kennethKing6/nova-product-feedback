@@ -1,0 +1,11 @@
+
+:root{
+    --all-Bbackground:#F2F4FF;
+}
+
+html,body{
+    background-color: var(--all-Bbackground);
+}
+.__next{
+background-color: #F7F8FD;
+}

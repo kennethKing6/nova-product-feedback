@@ -1,0 +1,88 @@
+
+
+.parent {
+    height: clamp(20rem, 30vh, 30rem);
+}
+
+.card_style {
+    margin-bottom: 1rem;
+    min-height: 10rem;
+}
+
+.header_card,.mobile_nav_parent {
+    background-image: url(../../assets/suggestions/desktop/background-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.header_card_text{
+    position: relative;
+    top: 35%;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .card_style{
+        min-width:90% ;
+        overflow: scroll;
+    }
+   
+}
+
+@media screen and (min-width:768px) and (max-width:1023px)  {
+    .parent  {
+        overflow-x: scroll;
+        height: clamp(30vh,30vh,70vh);
+    }
+    .card_style{
+        min-width: 20rem;
+        margin: .4rem;
+        overflow: scroll;
+    }
+   
+}
+
+
+
+
+/******************* Action Card  ******************/
+.button_sizing {
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    min-width: 4rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button_sizing:hover {
+    scale: 1.2;
+}
+
+.active_button {
+    background-color: #4661E6;
+    color: #FFFFFF;
+}
+
+.button {
+    color: #4661E6;
+    background-color: #F2F4FF;
+}
+
+
+/******************* Roadmap Card  ******************/
+
+.indicators {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    margin-right: 15px;
+    position: relative;
+    bottom: 2px;
+}
+
+

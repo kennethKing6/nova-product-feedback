@@ -1,0 +1,51 @@
+.listStatusStyles {
+    flex: 1;
+    min-width: 19.2rem;
+}
+
+
+/******** Headers styles *********/
+.status_headers {
+    color: #3A4374;
+    font-size: 1.1rem;
+}
+
+.status_description {
+    color: #647196;
+    font-size: 0.8rem;
+
+}
+.active{
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+}
+.active_planned{
+    border-bottom-color: #F49F85;
+}
+.active_progress{
+    border-bottom-color: #AD1FEA;
+}
+.active_live{
+    border-bottom-color: #62BCFA;
+}
+
+.back_icon{
+    background-image: url(../../assets/shared/icon-arrow-left.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    color:'white';
+    
+}
+/****** Category Style *****/
+.category_style{
+     width: 8rem;
+}
+@media screen and (max-width:768px) {
+    
+    .category_style{
+        width: 50%;
+   }
+}
